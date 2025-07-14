@@ -95,25 +95,17 @@ Q-2
     background-color:black;
     
 }
-   
-
-
-
-
-
-
-  
 </style>
 </head>
 <body>
 
 
- <div><p class="content__paragraph content__paragraph--highlight"> this is a highlighted  paragraph</p>
+<p class="content__paragraph content__paragraph--highlight"> this is a highlighted  paragraph</p>
 <p class="content__paragraph content__paragraph--note"> This paragraph serves as a neutral note.</p>
 <p class="content__paragraph content__paragraph--warning">Warning! This paragraph alerts the user to a potential issue.</p>
 <p class="content__paragraph content__paragraph--success">Success! This paragraph communicates a positive message.</p>
 
-</div>
+
 
 
 </body>
