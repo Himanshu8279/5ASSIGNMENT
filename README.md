@@ -12,8 +12,6 @@ Q-1 <!DOCTYPE>
         h1 {
 
          color: yellow;
-
-
 } 
 
 
@@ -55,7 +53,71 @@ code= h2 {
   backgrond-color:black;
 }
 
+Q-2 
 
+<!DOCTYPE>
+<html> 
+<head>
+
+       <title>   BEM styled paragraphs </title>
+<style>
+
+
+
+.content__paragraph--highlight{
+
+    color:blue;
+    font-weight: bolder;
+    background-color:black;
+    
+}
+   
+.content__paragraph--note{
+
+    color:red;
+    font-weight: bolder;
+    background-color:black;
+    
+}
+   
+.content__paragraph--warning{
+
+    color:yellow;
+    font-weight: bolder;
+    background-color:black;
+    
+}
+   
+.content__paragraph--success{
+
+    color:green;
+    font-weight: bolder;
+    background-color:black;
+    
+}
+   
+
+
+
+
+
+
+  
+</style>
+</head>
+<body>
+
+
+ <div><p class="content__paragraph content__paragraph--highlight"> this is a highlighted  paragraph</p>
+<p class="content__paragraph content__paragraph--note"> This paragraph serves as a neutral note.</p>
+<p class="content__paragraph content__paragraph--warning">Warning! This paragraph alerts the user to a potential issue.</p>
+<p class="content__paragraph content__paragraph--success">Success! This paragraph communicates a positive message.</p>
+
+</div>
+
+
+</body>
+</html>
 
 
 
